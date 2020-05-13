@@ -1,5 +1,5 @@
 # Stock Pal Microservice
-
+![Stock Pal Architecture](https://github.com/mrkwapo/StockPal-MS/blob/master/Stock%20Pal%20architecture%20.jpg?raw=true "Stock Pal Architecture")
 ## Synopsis
 The following project is Microservices Architecture design concept. The application provides regular users with current and historic data of a requested stock. Only admins have the ability to persist data to the database from a csv file. 
 
