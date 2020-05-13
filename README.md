@@ -1,10 +1,10 @@
 # Stock Pal Microservice
 ![Stock Pal Architecture](https://github.com/mrkwapo/StockPal-MS/blob/master/Stock%20Pal%20architecture%20.jpg?raw=true "Stock Pal Architecture")
 ## Synopsis
-The following project is Microservices Architecture design concept. The application provides regular users with current and historic data of a requested stock. Only admins have the ability to persist data to the database from a csv file. 
+Stock Pal is a Microservices Architecture design concept. This application provides regular users with stock current and historic stock data. 
 
 Design Architecture Concept
-Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data for the user.
+Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data for the user. Only admins have the ability to persist data from a csv file. 
 
 ## Construction
 The architecture has multiple servers and seperate databases. All users including admin are authenticated and authorized through the gateway in conjunction with the auth microservice. Regular users can only search for current and historic stock records in which requests are sent through the Gateway API.
