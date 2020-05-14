@@ -13,7 +13,7 @@ The architecture has multiple servers and seperate databases. All users includin
 * Zuul (API Gateway)
 * Eureka (Discovery Server) 
 * Postgresql (Databases used)
-* Spring Batch (Dependency used for persisting big data to DB)
+* Spring Batch (Dependency used for optimizing data persistence)
 * Spring Boot (Framework)
 * Spring Security (Auth)
 * JDBC (Database Driver)
