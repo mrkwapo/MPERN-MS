@@ -3,7 +3,7 @@
 ## Synopsis
 Stock Pal is a Microservices Architecture design concept. This application provides regular users with stock current and historic stock data. 
 
-Design Architecture Concept
+## Design Architecture Concept
 Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data for the user. Only admins have the ability to persist data from a csv file. 
 
 ## Construction
