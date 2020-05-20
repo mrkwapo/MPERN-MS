@@ -21,8 +21,6 @@ The architecture has multiple servers and seperate databases. All users includin
 * Java (Primary Language)
 * Python (Data Preprocessing)
 
-
-
 ## Links
 Below are the links to each microservice.
 
@@ -35,3 +33,4 @@ Below are the links to each microservice.
 [Historic Big Data Batch Job MS](https://github.com/mrkwapo/spring-batch-microservice)
 
 [Current Data MS](https://github.com/mrkwapo/search-current-data-microservice)
+[Machine Learning - Stock Prediction MS](Coming Soon)
