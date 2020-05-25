@@ -32,5 +32,5 @@ Below are the links to each microservice.
 
 [Historic Big Data Batch Job MS](https://github.com/mrkwapo/spring-batch-microservice)
 
-[Current Data MS](https://github.com/mrkwapo/search-current-data-microservice)
+[Current Data MS](https://github.com/mrkwapo/current-stock-microservice-python)
 [Machine Learning - Stock Prediction MS](Coming Soon)
