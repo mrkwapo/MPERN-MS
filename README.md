@@ -21,7 +21,7 @@ The architecture has multiple servers and seperate databases. All users includin
 * Java (Primary Language)
 * Python (Data Preprocessing)
 
-## Links to each microservice:
+## Links to each Microservice:
 
 [API Gateway MS](https://github.com/mrkwapo/spring-batch-microservice)
 
