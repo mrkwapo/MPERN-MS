@@ -32,5 +32,5 @@ The architecture has multiple servers and seperate databases. All users includin
 [Historic Big Data Batch Job MS](https://github.com/mrkwapo/spring-batch-microservice)
 
 [Current Data MS](https://github.com/mrkwapo/current-stock-microservice-python)
-##
-[Machine Learning - Stock Prediction MS](Coming Soon)
+
+[Machine Learning - Stock Prediction MS](https://github.com/mrkwapo/tensorflow-stock-prediction-ml-model)
