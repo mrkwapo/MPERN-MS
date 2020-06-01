@@ -15,7 +15,7 @@ The architecture has multiple servers and seperate databases. All users includin
 * Postgresql (Databases used)
 * Spring Batch (Dependency used for optimizing data persistence)
 * Spring Boot (Framework)
-* Spring Security (Auth)
+* Spring Security (Authorization and Authentication)
 * JDBC (Database Driver)
 * BCrypt (Password Encoder)
 * Java (Primary Language)
