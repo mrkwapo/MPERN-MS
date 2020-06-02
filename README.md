@@ -19,7 +19,7 @@ The architecture has multiple servers and seperate databases. All users includin
 * JDBC (Database Driver)
 * BCrypt (Password Encoder)
 * Java (Primary Language)
-* Python (Data Preprocessing)
+* Python (Data Preprocessing and API Consumption)
 
 ## Links to each Microservice:
 
