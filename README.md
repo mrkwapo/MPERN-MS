@@ -29,7 +29,7 @@ The architecture has multiple servers and seperate databases. All users includin
 
 [Eureka Discovery Server](https://github.com/mrkwapo/eureka-server-microservice)
 
-[Historic Big Data Batch Job MS](https://github.com/mrkwapo/spring-batch-microservice)
+[Persist Big Data MS](https://github.com/mrkwapo/spring-batch-microservice)
 
 [Current Data MS](https://github.com/mrkwapo/current-stock-microservice-python)
 
