@@ -26,7 +26,7 @@ The architecture has multiple servers and seperate databases. All users includin
 
 [API Gateway MS](https://github.com/mrkwapo/spring-batch-microservice)
 
-[Auth MS](https://github.com/mrkwapo/auth-microservice-jpa-postgres)
+[Auth MS](https://github.com/mrkwapo/auth-gateway-ms)
 
 [Eureka Discovery Server](https://github.com/mrkwapo/eureka-server-microservice)
 
