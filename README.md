@@ -1,25 +1,24 @@
 # Stock Pal 
 ![Stock Pal Architecture](https://github.com/mrkwapo/StockPal-MS/blob/master/Stock%20Pal%20architecture%20.jpg?raw=true "Stock Pal Architecture")
 ## Synopsis
-Stock Pal is a Microservices Architecture design concept. This application provides regular users with stock current and historic stock data. 
+Stock Pal is a Microservices Architecture design concept. This application provides regular users with historic, current and predicted stock data. 
 
 ## Design Architecture Concept
-Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data for the user. Only admins have the ability to persist data from a csv file. 
+Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data for the user. Machine Learning is used to make predications of future stock prices. Only admins have the ability to persist historic data from a csv file to the database. 
 
 ## Construction
-The architecture has multiple servers and seperate databases. All users including admin are authenticated and authorized through the gateway in conjunction with the auth microservice. Regular users can only search for current and historic stock records in which requests are sent through the Gateway API.
+The architecture has multiple servers and seperate databases. Registered users, including admin, are authenticated and authorized through the gateway in conjunction with the auth microservice. Guest users can only search for current and historic stock records in which requests are also sent through the API Gateway.
 
 ## Architecture Technology and Languages used 
 * Zuul (API Gateway)
 * Eureka (Discovery Server) 
 * Postgresql (Databases used)
-* Spring Batch (Dependency used for optimizing data persistence)
+* Spring Batch & TaskExecutor (Dependencies used for optimizing Big Data persistence)
 * Spring Boot (Framework)
 * Spring Security (Authorization and Authentication)
 * JDBC (Database Driver)
-* BCrypt (Password Encoder)
 * Java (Primary Language)
-* Python (for Data Preprocessing and API Consumption)
+* Python (used for Data Preprocessing, API Consumption and Machine Learning Model)
 * Flask (for Python API Development)
 
 ## Links to each Microservice:
