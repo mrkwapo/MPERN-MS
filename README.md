@@ -21,7 +21,7 @@ The architecture has multiple servers and seperate databases. Registered users, 
 * Spring Security (Authorization and Authentication)
 * JDBC (Database Driver)
 * Java (Primary Language)
-* Python (used for Data Preprocessing, API Consumption and Machine Learning Model)
+* Python (Secondary Language used for Data Preprocessing, API Consumption and Machine Learning Model)
 * Flask (for Python API Development)
 
 ## Links to each Microservice:
