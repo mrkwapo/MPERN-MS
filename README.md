@@ -15,9 +15,9 @@ The architecture has multiple servers and seperate databases. Registered users, 
 ## Architecture Technology and Languages used 
 * Zuul (API Gateway)
 * Eureka (Discovery Server) 
-* Postgresql (Databases used)
+* PostgreSQL
 * Spring Batch & TaskExecutor (Dependencies used for optimizing Big Data persistence)
-* Spring Boot (Framework)
+* Spring Boot
 * Spring Security (Authorization and Authentication)
 * JDBC (Database Driver)
 * Java (Primary Language)
@@ -26,14 +26,14 @@ The architecture has multiple servers and seperate databases. Registered users, 
 
 ## Links to each Microservice:
 
-[API Gateway MS](https://github.com/mrkwapo/spring-batch-microservice)
+[API Gateway MS](https://bit.ly/2NgiICN)
 
-[Auth MS](https://github.com/mrkwapo/auth-gateway-ms)
+[Auth MS](https://bit.ly/3hxvvP1)
 
-[Eureka Discovery Server](https://github.com/mrkwapo/eureka-server-microservice)
+[Eureka Discovery Server](https://bit.ly/2YJruyn)
 
-[Persist Big Data MS](https://github.com/mrkwapo/spring-batch-microservice)
+[Persist Big Data MS](https://bit.ly/2YJqDh9)
 
-[Current Data MS](https://github.com/mrkwapo/current-stock-microservice-python)
+[Current Data MS](https://bit.ly/30U4Oyd)
 
-[Machine Learning - Stock Prediction MS](https://github.com/mrkwapo/tensorflow-stock-prediction-ml-model)
+[Machine Learning - Stock Prediction MS](https://bit.ly/2UToo9Y)
