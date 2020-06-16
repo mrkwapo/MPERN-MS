@@ -1,6 +1,6 @@
 # Stock Pal 
 <p align="center">
-  <img src="https://github.com/mrkwapo/StockPal-MS/blob/master/stockpal%20architecture.jpg">
+  <img src="https://github.com/mrkwapo/StockPal-MS/blob/master/stock%20pal%20architecture.jpg">
 </p>
 
 ## Synopsis
