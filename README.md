@@ -4,7 +4,7 @@
 Stock Pal is a Microservices Architecture design concept. This application provides regular users with historic, current and predicted stock data. 
 
 ## Design Architecture Concept
-Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data for the user. Machine Learning is used to make predications of future stock prices. Only admins have the ability to persist historic data from a csv file to the database. 
+Aggregator design pattern. Users make a get request to the search aggregator microservice that will fetch both current and historic data. Machine Learning is used to make predications of future stock prices. Only admins have the ability to persist historic Big Data from a csv file to the database. The Big Data feature is multi-threaded to optimize performance in terms of speed.
 
 ## Construction
 The architecture has multiple servers and seperate databases. Registered users, including admin, are authenticated and authorized through the gateway in conjunction with the auth microservice. Guest users can only search for current and historic stock records in which requests are also sent through the API Gateway.
