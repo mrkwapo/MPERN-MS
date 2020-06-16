@@ -1,7 +1,7 @@
 # Stock Pal 
 <p align="center">
-![Stock Pal Architecture](https://github.com/mrkwapo/StockPal-MS/blob/master/stockpal%20architecture.jpg "Stock Pal Architecture")
-  </p>
+  <img width="460" height="300" src="https://github.com/mrkwapo/StockPal-MS/blob/master/stockpal%20architecture.jpg">
+</p>
 ## Synopsis
 Stock Pal is a Microservices Architecture design concept. This application provides regular users with historic, current and predicted stock data. 
 
