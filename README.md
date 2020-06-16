@@ -1,5 +1,5 @@
 # Stock Pal 
-![Stock Pal Architecture](https://github.com/mrkwapo/StockPal-MS/blob/master/Stock%20Pal%20architecture%20.jpg?raw=true "Stock Pal Architecture")
+![Stock Pal Architecture](https://github.com/mrkwapo/StockPal-MS/blob/master/stockpal%20architecture.jpg "Stock Pal Architecture")
 ## Synopsis
 Stock Pal is a Microservices Architecture design concept. This application provides regular users with historic, current and predicted stock data. 
 
