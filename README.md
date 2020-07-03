@@ -7,7 +7,7 @@
 Stock Pal is a Microservices Architecture design concept. This application provides regular users with historic, current and predicted stock data. 
 
 ## Design Architecture Concept
-API Gateway design pattern. The API Gateway is the single point of entry for any microservice call when users fetch historic, current and predicted data. Machine Learning is used to make predications of future stock prices. Only admins have the ability to persist historic Big Data from a csv file to the database. The Big Data feature is multi-threaded to optimize performance in terms of speed and time complexity.
+API Gateway design pattern. The API Gateway is the single point of entry for any microservice call when users fetch historic, current and predicted data. Machine Learning is used to make predications of future stock prices. Only admins have the ability to persist historic Big Data from a csv file to the database. The Big Data feature is multi-threaded to optimize performance in terms of speed and time complexity. Future iterations will follow the Client-Side UI Composition Pattern using ReactJS to provide a line graph visualization of historic data (day, week, month, 1 year and 5 years).
 
 ## Construction
 The architecture has multiple servers and seperate databases. Registered users, including admin, are authenticated and authorized through the gateway in conjunction with the auth microservice. Guest users can only search for current and historic stock records in which requests are also sent through the API Gateway.
